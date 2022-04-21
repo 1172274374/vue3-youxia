@@ -12,20 +12,20 @@ git clone https://github.com/1172274374/vue3-youxia.git
 ```bash
 cd vue3-youxia
 
-pnpm install
+npm install
 
 ```
 
 - 运行
 
 ```bash
-pnpm serve
+npm run serve
 ```
 
 - 打包
 
 ```bash
-pnpm build
+npm run build
 ```
 **预览地址：https://www.samisong.cn** 
 ## vscode 配置
