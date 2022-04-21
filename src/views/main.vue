@@ -119,6 +119,7 @@
                 e.target.style.display = "none";
                 document.querySelector(".close").style.background = "none";
                 document.querySelector(".main_bg").style.background = "none";
+
             }
 
 

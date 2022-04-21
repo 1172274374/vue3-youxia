@@ -1,13 +1,14 @@
 /** @format */
 
 const path = require('path')
+const webpack = require('webpack')
 
 function resolve(dir) {
     return path.join(__dirname, '.', dir)
 }
 module.exports = {
     devServer: {
-        port: 8081,
+        port: 8082,
         open: true,
         overlay: {
             warnings: false,
@@ -18,11 +19,7 @@ module.exports = {
                 后台API接口代理
               */
             '^/Api': {
-<<<<<<< HEAD
-                target: 'http://127.0.0.1:5000', // 代理API服务器地址
-=======
-                target: 'http://120.79.121.67', // 代理API服务器地址
->>>>>>> bf5d7ab (‘1.1’)
+                target: 'http://localhost:3000', // 代理API服务器地址
                 changeOrigin: true,
                 pathRewrite: {
                     '^/Api': '',
@@ -35,7 +32,7 @@ module.exports = {
                 pathRewrite: {
                     '^/muxiaoguo': '',
                 },
-            },
+            }
         },
     },
     // 基本路径
@@ -55,6 +52,13 @@ module.exports = {
                 },
             ],
         },
+        plugins: [
+            new webpack.ProvidePlugin({
+                $: 'jquery',
+                jQuery: 'jquery',
+                'windows.jQuery': 'jquery',
+            }),
+        ],
     },
     chainWebpack(config) {
         config.module.rules.delete('svg') // 重点:删除默认配置中处理svg,
@@ -66,5 +70,5 @@ module.exports = {
             .use('svg-sprite-loader')
             .loader('svg-sprite-loader')
     },
-    // lintOnSave:false    //eslint 关闭语法检测
+    lintOnSave: false, //eslint 关闭语法检测
 }

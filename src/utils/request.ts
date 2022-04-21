@@ -36,38 +36,4 @@ request.interceptors.response.use(
     }
 )
 
-// 公共Request
-// let showLoaddingFunction: showLoaddingType
-async function configRequest(
-    ajaxType: AxiosInstance,
-    proUrl: string,
-    myData = {},
-    loading: boolean,
-    type = 'get'
-): Promise<AxiosResponse> {
-    const result =
-        type === 'get'
-            ? await ajaxType.get(proUrl, {
-                  params: myData,
-                  paramsSerializer: (params = {}) => {
-                      return qs.stringify(params, { indices: false })
-                  },
-              })
-            : await ajaxType.post(proUrl, myData)
-
-    return result
-}
-
-// get
-export async function goGet(proUrl: string, myData = {}, loading = true): Promise<requestInterface> {
-    const { data } = await configRequest(request, proUrl, myData, loading)
-    return Promise.resolve(data)
-}
-
-//post
-export async function goPost(proUrl: string, myData = {}, loading = true): Promise<requestInterface> {
-    const { data } = await configRequest(request, proUrl, myData, loading, 'post')
-    return Promise.resolve(data)
-}
-
 export default request

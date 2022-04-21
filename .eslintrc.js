@@ -6,6 +6,7 @@ module.exports = {
         // 启用的环境
         node: true, //node 环境
         browser: true, // 浏览器环境
+        jquery: true,
     },
     // 一个配置文件可以被基础配置以中已启用的规则继承
     extends: [

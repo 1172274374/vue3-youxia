@@ -24,7 +24,8 @@
         "src/**/*.vue",
         "src/router/index.ts",
         "src/api/youxi_ax.js",
-        "src/utils/Date/index.ts"
-    ],
+        "src/utils/Date/index.ts",
+        "src/utils/main.js"
+, "src/main.ts"    ],
     "exclude": ["node_modules"]
 }
