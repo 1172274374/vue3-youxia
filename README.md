@@ -1,4 +1,4 @@
-**预览地址：https://www.samisong.cn** 
+
 ## 安装使用
 
 - 获取项目代码
@@ -27,7 +27,7 @@ pnpm serve
 ```bash
 pnpm build
 ```
-
+**预览地址：https://www.samisong.cn** 
 ## vscode 配置
 
 安装项目根目录.vscode 推荐的插件，再安装 Volar，并禁用 Vetur，重启 vscode 即可。
