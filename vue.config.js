@@ -19,7 +19,7 @@ module.exports = {
                 后台API接口代理
               */
             '^/Api': {
-                target: 'http://localhost:3000', // 代理API服务器地址
+                target: 'http://120.79.121.67', // 代理API服务器地址
                 changeOrigin: true,
                 pathRewrite: {
                     '^/Api': '',
