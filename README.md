@@ -80,7 +80,7 @@ npm run build
 - B站：[一枚大闲人](https://space.bilibili.com/21331432?spm_id_from=333.1007.0.0)
 
 ### 捐赠
-<img src="https://github.com/1172274374/vue3-youxia/blob/master/public/12.jpg"/>
+<img src="https://github.com/1172274374/vue3-youxia/blob/master/public/12.png"/>
 
 
 
