@@ -42,9 +42,17 @@ npm run build
 # 部分截图
 
 
-<img src="https://github.com/bailicangdu/vue2-manage/blob/master/screenshots/manage_home.png"/>
+<img src="https://github.com/1172274374/vue3-youxia/blob/master/public/1.jpg"/>
 
-<img src="https://github.com/bailicangdu/vue2-manage/blob/master/screenshots/manage_shop.png"/>
+<img src="https://github.com/1172274374/vue3-youxia/blob/master/public/2.jpg"/>
+
+<img src="https://github.com/1172274374/vue3-youxia/blob/master/public/3.jpg"/>
+
+<img src="https://github.com/1172274374/vue3-youxia/blob/master/public/4.jpg"/>
+
+<img src="https://github.com/1172274374/vue3-youxia/blob/master/public/5.jpg"/>
+
+<img src="https://github.com/1172274374/vue3-youxia/blob/master/public/6.jpg"/>
 
 ### 后端全部重新开发接口，实现后台系统管理，后端接口项目请跳转至 [Youxia后台](https://github.com/1172274374/youxia-backend) 项目仓库查看
 ### 新增与优化
