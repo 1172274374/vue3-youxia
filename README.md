@@ -71,9 +71,9 @@ npm run build
 
 
 ### 技术疑问交流
-- QQ交流群 `607646880`，可获取各项目详细图文文档、疑问解答 [![](http://pub.idqqimg.com/wpa/images/group.png)](tencent://groupwpa/?subcmd=all&param=7B2267726F757055696E223A3630373634363838302C2274696D655374616D70223A313635303539313536357D0A)
+- QQ交流群 `607646880`，可获取各项目详细图文文档、疑问解答 [![](http://pub.idqqimg.com/wpa/images/group.png)]
 
-- B站：[https://space.bilibili.com/21331432?spm_id_from=333.1007.0.0](http://blog.exrick.cn)
+- B站：[](https://space.bilibili.com/21331432?spm_id_from=333.1007.0.0)
 
 
 
