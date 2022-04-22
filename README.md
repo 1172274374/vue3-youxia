@@ -46,10 +46,6 @@ npm run build
 
 <img src="https://github.com/1172274374/vue3-youxia/blob/master/public/2.jpg"/>
 
-<img src="https://github.com/1172274374/vue3-youxia/blob/master/public/3.jpg"/>
-
-<img src="https://github.com/1172274374/vue3-youxia/blob/master/public/4.jpg"/>
-
 <img src="https://github.com/1172274374/vue3-youxia/blob/master/public/5.jpg"/>
 
 <img src="https://github.com/1172274374/vue3-youxia/blob/master/public/6.jpg"/>
