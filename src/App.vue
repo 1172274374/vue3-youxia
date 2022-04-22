@@ -18,6 +18,8 @@
         },
         async mounted () {
 
+            console.log("这是开发分支");
+
             // console.log(this.$store);
             
 
