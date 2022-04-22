@@ -46,7 +46,7 @@ npm run build
 
 <img src="https://github.com/bailicangdu/vue2-manage/blob/master/screenshots/manage_shop.png"/>
 
-### 后端全部重新开发接口，实现后台系统管理，后端接口项目请跳转至 [xmall](https://github.com/Exrick/xmall) 项目仓库查看
+### 后端全部重新开发接口，实现后台系统管理，后端接口项目请跳转至 [Youxia后台](https://github.com/1172274374/youxia-backend) 项目仓库查看
 ### 新增与优化
 - [x] 优化登录注册界面
 - [x] 新增搜索页面，实现高亮分页搜索
